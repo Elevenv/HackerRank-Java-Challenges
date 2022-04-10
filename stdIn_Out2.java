@@ -12,9 +12,7 @@
 // On the third line, print Int: followed by the unaltered integer read from stdin.
 
 
-import java.io.*;
 import java.util.*;
-
 class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -25,5 +23,6 @@ class Solution {
         System.out.println("String: "+str);
         System.out.println("Double: "+dbl);
         System.out.println("Int: "+i);
+        sc.close();
     }
 }
