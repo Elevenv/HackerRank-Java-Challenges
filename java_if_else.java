@@ -9,7 +9,6 @@
 
 
 import java.util.*;
-
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -23,5 +22,6 @@ class Solution{
         }
         else
             System.out.println("Weird");
+            sc.close();
     }
 }
