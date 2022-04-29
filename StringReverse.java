@@ -1,7 +1,7 @@
 
 // A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
 
-import java.io.*;
+
 import java.util.*;
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
         }
         return true;
     }
-
     public static void main(String[] args) {
         String str;
         Scanner sc = new Scanner(System.in);
